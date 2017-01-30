@@ -40,4 +40,5 @@ ADD ./build.sh /tmp/
 
 WORKDIR /tmp/
 
-CMD ["./build.sh"]
+#CMD ["./build.sh"]
+CMD ["bash"]
